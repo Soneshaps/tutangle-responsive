@@ -141,7 +141,7 @@ html,body
   color: #d4d4d4;
 }
 
-@media  (min-width: 576px) {
+@media screen and (min-width: 576px) {
   .bottom-header{
     height: 40px;
   }
@@ -149,13 +149,14 @@ html,body
 }
 
 
-@media  (min-width: 768px) {
+@media screen and (min-width: 768px) {
   .top-header{
     height: 85px;
   }
+  
 }
 
-@media  (min-width: 992px) {
+@media screen and (min-width: 992px) {
 
   .content-wrapper{
     position: relative;
@@ -167,7 +168,7 @@ html,body
 }
 
 
-@media  (min-width: 1200px) {
+@media screen and (min-width: 1200px) {
 
   .top-header-inner,.bottom-header-outer,.content-wrapper,.footer-outer{
     width: 75%;

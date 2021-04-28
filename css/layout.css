@@ -13,7 +13,7 @@ html,body
 
 
 .top-header{
-  height : 85px;
+  height: 105px;
   width : 100%;
   background-color :#7dd9e8;
 }
@@ -22,30 +22,30 @@ html,body
   width: 96%;   
   height: 85px;
   position: relative;
-  
   background-color :#7dd9e8;
 
 }
 
 .top-header-inner-left{
   height: 49px;
+  width: 100%;
   float: left;
   position: absolute;
   top: 50%;
   margin-top: -25px;
 }
 
+
 .logo{
   width : 223px;
-  float: left;
+  float: none;
 }
 
 .search-wrapper{
   float: left;
   height: 21px;
-  width: 336px;
-  margin-left: 24px;
-  padding-top: 20px;
+  width: 100%;
+  padding-top: 10px;
 }
 
 .top-header-inner-right{
@@ -68,7 +68,7 @@ html,body
 }
 
 .bottom-header{
-  height: 40px;
+  height: 156px;
   width: 100%;
   background-color:#f5f5f5;
 }
@@ -84,7 +84,7 @@ html,body
 
 .bottom-header-right-wrapper{
   height: 20px;
-  right: 20px;
+  right: 0;
   position: absolute;
   top: 50%;
   margin-top: -10px;
@@ -136,14 +136,22 @@ html,body
   position: absolute;
   top: 50%;
   margin-top: -7px;
-  width: 96%;
+  width: 100%;
   font-size: 10px;
   color: #d4d4d4;
 }
 
 @media  (min-width: 576px) {
+  .bottom-header{
+    height: 40px;
+  }
+  
+}
+
+
+@media  (min-width: 768px) {
   .top-header{
-    height: 105px;
+    height: 85px;
   }
 }
 
@@ -151,6 +159,18 @@ html,body
 
   .content-wrapper{
     position: relative;
+  }
+  .top-header-inner,.bottom-header-outer,.content-wrapper,.footer-outer{
+    width: 92%;
+  }
+
+}
+
+
+@media  (min-width: 1200px) {
+
+  .top-header-inner,.bottom-header-outer,.content-wrapper,.footer-outer{
+    width: 75%;
   }
 
 }

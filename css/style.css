@@ -175,6 +175,8 @@ a{
   text-align: center;
   padding: 10px 0;
   border-bottom: 1px solid #ebebeb;
+  width: 50%;
+  float: left;
 }
 
 
@@ -530,6 +532,8 @@ a{
     text-align: left;
     padding: 0;
     border-bottom: 0;
+    float: none;
+    width: auto;
   }
 
   

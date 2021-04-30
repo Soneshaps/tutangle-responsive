@@ -209,7 +209,7 @@ a{
 
 .menutext-request:before{
   content: '';
-  background-image: url('/images/requestInActive.png');
+  background-image: url('../images/requestInActive.png');
   position: absolute;
   height: 16px;
   width: 20px;
@@ -233,7 +233,7 @@ a{
 
 .menutext-box:before{
   content: '';
-  background-image: url('/images/inviteInActive.png');
+  background-image: url('../images/inviteInActive.png');
   position: absolute;
   height: 16px;
   width: 10px;
@@ -241,7 +241,7 @@ a{
 }
 
 .menutext-box:hover:before{
-  background-image: url('/images/inviteActive.png');
+  background-image: url('../images/inviteActive.png');
 }
 
 .menuvalue{

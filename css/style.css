@@ -526,7 +526,6 @@ background-image: url('../images/tabhover-right.png');
   float: none;
   height: 100px;
   width: 100px;
-  margin: 0 auto;
 }
 
 .entry-pic img{
@@ -540,7 +539,6 @@ background-image: url('../images/tabhover-right.png');
   font-family: "Arial";
   margin-top: 5px;
   font-weight: bold;
-  text-align: center;
 }
 
 .subtext{
